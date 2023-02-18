@@ -10,7 +10,7 @@ class Server
         this.app  = express();
         this.port = process.env.PORT;
 
-        this.authPath = '/api/auth';
+        this.authPath     = '/api/auth';
         this.usuariosPath = '/api/usuarios';
 
         // Conectar a Base de Datos
